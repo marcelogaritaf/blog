@@ -1,0 +1,75 @@
+.container{
+ margin: 100px;
+}
+.menu{
+    display: flex;
+    margin-bottom: 50px;
+}
+.menu ul{
+   display: flex;
+   list-style: none;
+   padding-left: 540px;
+}
+.menu a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: var(---Very-dark-blue);
+    transition: all 0.2s ease;
+}
+.menu a:hover {
+    color:var(---primary2)
+}
+.main-part{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 20px;
+}
+.main-part img{
+    width: 100%;
+    border-radius: 2px;
+}
+.news{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+}
+.news h1{
+    font-size: 45px;
+}
+.news .main-button{
+    margin-top: 45px;
+    padding: 8px;
+    width: 50%;
+    text-transform: uppercase;
+    background-color: var(---primary2);
+    border: none;
+    border-radius: 3px;
+    color: var(---of-white);
+    letter-spacing: 3px;
+    transition: background-color 0.4s ease-in;
+    cursor: pointer;
+}
+.news .main-button:hover{
+    background-color: var(---Very-dark-blue)
+}
+.secundary-news{
+    background-color: var(---Very-dark-blue);
+    width: 100%;
+    border-radius: 2px;
+    padding: 25px;
+}
+.secundary-news h2{
+    color: var(---primary);
+}
+.secundary-news p{
+    padding: 10px 0;
+}
+hr{
+    height: 0.1rem;
+    border: 0;
+    max-width: 80%;
+    background-image: linear-gradient(to right,var(---Very-dark-blue)5%,var(---of-white), var(---Very-dark-blue));
+    padding:0.2px 0;
+    
+}
