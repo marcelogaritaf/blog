@@ -1,0 +1,18 @@
+/*more news space*/
+.more-news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap:10px;
+    margin-bottom: 500px;
+
+}
+.newsX{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.newsX img{
+    height: 150px;
+    width: 140px;
+    margin-right: 15px;
+    border-radius: 3px;
+}
