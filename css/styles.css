@@ -10,6 +10,23 @@
     width: 70px;
     height: 50px;
 }
+.hide{
+    display: none;
+}
+.menu-btn img{
+    width: 45px;
+    height: 30px;
+}
+.menu-btn{
+    padding: 0;
+    border: 0;
+    background-color: var(---of-white);
+    cursor: pointer;
+    transition: opacity 0.5s ease;
+}
+.menu-btn:hover{
+    opacity: 0.5;
+}
 .menu ul{
    display: flex;
    list-style: none;
@@ -82,9 +99,6 @@ hr{
 @media  screen and (max-width: 550px) {
     .container{
         margin: 20px;
-    }
-    .menu ul{
-        display: none;
     }
     .main-part{
         display: flex;
