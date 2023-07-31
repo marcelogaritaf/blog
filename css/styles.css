@@ -1,10 +1,12 @@
 .container{
- margin: 100px;
+    margin-right: 30px;
+    margin-left: 40px;
 }
 .menu{
     display: flex;
-    margin-bottom: 50px;
+    align-items: center;
     justify-content: space-between;
+    padding: 2rem;
 }
 .menu img{
     width: 70px;
@@ -13,26 +15,22 @@
 .hide{
     display: none;
 }
-.menu-btn img{
-    width: 45px;
-    height: 30px;
-}
-.menu-btn{
-    padding: 0;
+.menu-btn, .btn-cerrar{
     border: 0;
     background-color: var(---of-white);
     cursor: pointer;
-    transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease; 
 }
-.menu-btn:hover{
+.menu-btn, .btn-cerrar:hover{
     opacity: 0.5;
 }
 .menu ul{
    display: flex;
    list-style: none;
+   gap: 2rem;
 }
 .menu a{
-    padding-left: 40px;
+
     text-decoration: none;
     color: var(---Very-dark-blue);
     transition: all 0.2s ease;
@@ -97,6 +95,9 @@ hr{
 }
 /*responsive */
 @media  screen and (max-width: 550px) {
+    .menu{
+        padding: 1rem;
+    }
     .container{
         margin: 20px;
     }
