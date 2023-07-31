@@ -9,14 +9,17 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/sNews.css">
+    <link rel="stylesheet" href="css/responsive-menu.css">
     <link rel="icon" href="assets/img/favicon-32x32.png">
    
     <title>News Homepage</title>
 </head>
 <body>
-    <div class="container">
-        <nav class="menu">
-            <img src="assets/img/MGF logo.png" alt="logo de la pagina">
+    <header class="menu">
+        <img src="assets/img/MGF logo.png" alt="logo de la pagina">
+        <button class="menu-btn hide"><img src="assets/img/icon-menu.svg" alt="burger men"></button>
+        <nav class="nav ">
+            <button class="btn-cerrar hide"><img src="assets/img/icon-menu-close.svg" alt="x"></button>
             <ul>
                 <li><a href="">Home</a></li>
                 <li><a href="">New</a></li>
@@ -25,6 +28,8 @@
                 <li><a href="">Categories</a></li>
             </ul>
         </nav>
+    </header>
+    <div class="container">
         <main class="main-part">
             <div class="main-news">
                 <img src="assets/img/image-web-3-desktop.jpg" alt="imagen de referencia">
@@ -88,7 +93,6 @@
             Created and Coded By <a href="https://github.com/marcelogaritaf">Marcelo Garita Fonseca</a>
         </footer>
     </div>
-    <script src="js/ScrollReveal.js"></script>
-    <script src="js/scroll.js"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
