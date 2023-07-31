@@ -1,10 +1,10 @@
 window.sr = ScrollReveal();
 
-sr.reveal(".menu", {
+/*sr.reveal(".menu", {
   duration: 5000,
   origin: "top",
   distance: "-100px",
-});
+});*/
 sr.reveal(".main-news img", {
   duration: 5500,
   origin: "left",
